@@ -1,0 +1,28 @@
+.textcols {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.textcols-item {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 30%;
+	background: #aea9a9;
+    
+}
+.textcols-item + .textcols-item {
+	margin-left: 5%;
+}
+.left-img {
+    float:left; /* Выравниваем по левому краю */
+    margin: 5px 10px 10px 0; /* Настраиваем отступы вокруг картинки */
+}
+.right-img  {
+    float: right; /* Выравниваем по правому краю  */ 
+    margin: 10px 0 10px 10px; /* Настраиваем отступы вокруг картинки */
+}
+.q {color:70694D; size: 20mm;}
+
