@@ -4,7 +4,6 @@
 	flex-wrap: wrap;
 	width: 100%;
 }
-<link rel="stylesheet" href="mysite.css">
 .textcols-item {
 	display: flex;
 	flex-direction: column;
